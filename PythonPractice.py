@@ -22,5 +22,13 @@ print (int(12374/621))
 print (round(12374/621))
 print ('4 % 2 =', 4%2 )
 print ('4 % 2 = ' + str (4%2) )
+x = 5
+print (x > 3 and x < 5)
+print (3 < x > 5)
+print (not x)
 
+z = 'cats'
+y = 'dogs'
+s = 'It\'s raining ' + z + ' and ' + y
+print (s) 
 
